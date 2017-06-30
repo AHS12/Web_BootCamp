@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms,buttons,etc</title>
+</head>
+<body>
+
+<h6>Select Color</h6> <br>
+<input type="color"> <br>
+<h6>Enter Text</h6> <br>
+<input type="text"><br>
+<h6>Enter PassWord</h6> <br>
+<input type="password"> <br>
+<h6>Pick Date</h6> <br>
+<input type="date"><br>
+<h6>Select </h6> <br>
+<input type="radio"> <br>
+<h6>Select </h6> <br>
+<input type="checkbox">
+
+<div style="border: dashed">
+    <h3>Login From Demo(without Form Tag)</h3>
+
+    <input type="text" placeholder="Enter Name"> <br> <br>
+    <input type="password" placeholder="Enter Password"> <br> <br>
+    <button>Login</button>
+    <input type="submit">
+
+</div>
+
+<br>
+<br>
+
+
+<!-- Form tag-->
+
+<!--action-where data sent to-->
+<!--method-What HTTP method(post/get)-->
+
+<div style="width: auto">
+
+    <form> <!--action="https://www.wikipedia.org" method="get"-->
+
+        <h3>Login From Demo(with Form Tag)</h3>
+        <label>
+            UserName
+            <input name="name" type="text" placeholder="Enter Name"> <br> <br>
+        </label>
+
+        <label>
+            PassWord
+            <input name="password" type="password" placeholder="Enter Password"> <br> <br>
+
+        </label>
+        <button>Login</button>
+
+    </form>
+
+</div>
+
+<br>
+<br>
+
+
+<form>
+    <label for="username">Username</label>
+    <input id="username" type="text" placeholder="Enter Name" required> <br> <br>
+    <label for="pass">Password</label>
+    <input id="pass" type="password" placeholder="Enter Password" required> <br> <br>
+    <button>Login</button>
+</form>
+
+<!--Radio buttons and DropDown-->
+<br>
+<form>
+    <label for="Dog">Dog</label>
+    <input id = "Dog" name="petchoice" type="radio" value="DOGS">
+    <label for="Cat">Cat</label>
+    <input id="Cat" name="petchoice" type="radio" value="CATS"> <br>
+
+    <button>Go</button>
+</form>
+
+<br>
+<br>
+<br>
+<!--now dropdown-->
+
+<form>
+    <select name="color">
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Green</option>
+        <option>Orange</option>
+        <option>Pink</option>
+    </select>
+
+    <button>Go!</button>
+</form>
+
+<form>
+    <select name="emo">
+        <option value="Happy">:)</option>
+        <option value="sad">:(</option>
+        <option value="Lol">-_-</option>
+    </select>
+    <button>Go</button>
+</form>
+</body>
+</html>

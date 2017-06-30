@@ -1,0 +1,6 @@
+ul {
+    color: crimson;
+
+    /* elements inside ul(li) are also colored crimson too..*/
+    /* so parents attribute affects childs too */
+}

@@ -1,0 +1,40 @@
+
+/*Google Fonts Link: https://fonts.google.com */
+
+/*if we use a local font or google font locally*/
+@font-face {
+    font-family: "Oswald";
+    src: url(../fonts/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/Open_Sans/OpenSans-regular.ttf);
+
+}
+
+
+
+p {
+    /* using Google Fonts "Oswald" locally */
+    /* other way is the google link */
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+
+h1 {
+    /* using Google Fonts "Open Sans" locally*/
+    /* other way is the google link */
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+span {
+    font-size: 2.5em;
+    text-decoration: line-through;
+}

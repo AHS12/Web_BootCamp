@@ -1,0 +1,28 @@
+ul {
+    /*border: dashed 3px cadetblue;*/
+}
+
+li {
+    border: solid 1px crimson;
+    color: darkgoldenrod;
+}
+
+h3 {
+    color: coral;
+}
+
+body {
+    /*background: url("../Src/grain-wallpaper-hd.jpg");*/
+    background: url("../Src/ShySteve.png");
+    background-size: cover;
+}
+
+#rest {
+    background: yellow;
+    color: darkred;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: darkred;
+}

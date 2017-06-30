@@ -1,0 +1,32 @@
+h1 {
+    color: darkgoldenrod;
+    /*Adding Border */
+
+    /*this is the Short From */
+    border: 5px dashed cadetblue;
+
+    /*long from
+    border-style: dashed;
+    border-color: #000;
+    border-width: 5px;*/
+
+}
+
+ul {
+    color: crimson;
+    color: rgba(255,100,80,0.5);
+}
+
+body {
+    /*color: antiquewhite; */
+    background: url("../Src/grain-wallpaper-hd.jpg");
+    /*background-repeat:no-repeat;*/
+    /*background: repeat-x;*/
+    background-size: cover;
+}
+
+/* border in CSS
+width
+color
+style
+ */

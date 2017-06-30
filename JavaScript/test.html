@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" lang="En">
+    <title>JavaScript Run</title>
+</head>
+
+<body>
+    <script>
+        //language=HTML
+        document.write('Hello World' + " <br>");
+
+        var friuts = ["apple", "mango", "orange"];
+        document.write(friuts);
+
+
+
+        alert("How are U?");
+
+
+        var name;
+        name = prompt("Enter Your name");
+        document.write("<br>");
+        document.write(name + "<br>");
+
+        function alert() {
+
+            if (confirm("Press any Button!") === true) {
+                document.write("You pressed ok!")
+            } else {
+                document.write("You pressed cancel")
+            }
+
+        }
+
+
+        function evenodd() {
+
+            var number = prompt("Enter a number");
+
+            if ((number % 2) === 0) {
+                document.write(number + " is Even")
+            } else {
+                document.write(number + " is odd")
+            }
+
+        }
+
+    </script>
+
+    <button onclick="alert()">Press me!</button>
+    <button onclick="evenodd()">Press me for check!</button>
+</body>
+
+</html>
+
