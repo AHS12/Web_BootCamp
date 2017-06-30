@@ -1,0 +1,12 @@
+p {
+    text-align: center;
+    margin: auto auto 25px auto;
+    width: 50%;
+    /*height: auto;*/
+    padding: 10px;
+    border: solid 2px blueviolet;
+}
+
+body {
+    text-align: center;
+}
