@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(../fonts/Oswald/Oswald-Regular.ttf);
+}
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+
+    font-family: Oswald;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    /*background: peru;*/
+}
+
+.vertical {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.horizontal {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
