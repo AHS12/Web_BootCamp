@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Fresca";
+    src: url(../../fonts/Fresca/Fresca-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(../../fonts/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(../../fonts/Open_Sans/OpenSans-Regular.ttf);
+
+}
+
+h2 {
+    font-family: Oswald;
+    color: darkcyan;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: Fresca;
+}
+
+.date {
+    font-family: "Open Sans";
+    text-transform: uppercase;
+    color: cadetblue;
+    letter-spacing: 0.2rem;
+}
+
+.qoute {
+    border-left: solid 5px darkgray;
+    padding-left: 5px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+body {
+    border: 20px solid darkgray;
+    padding: 20px;
+    max-width: 800px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/*Hr Style  Copied From net*/
+
+/* Gradient transparent - color - transparent */
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
