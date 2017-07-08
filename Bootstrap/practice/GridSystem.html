@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <style>
+        .design {
+            background: darkcyan;
+            text-align: center;
+            border: 2px solid cyan;
+            padding: 10px;
+        }
+
+        p {
+            border: solid 1px black;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <!--col-lg-3 is the size in full screen and col-md-3 is for same layout even in mid breakpoint of screen-->
+
+        <div class="col-md-3 col-sm-6 design">
+            <h3>Test Grid! 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet, asperiores aspernatur cum est facere
+                illum maxime minus necessitatibus provident quasi soluta sunt suscipit tempora tempore temporibus ut
+                veniam? Provident.</p>
+            <button class="btn btn-info btn-lg">Lorem</button>
+        </div>
+        <div class="col-md-3 col-sm-6 design">
+            <h3>Test Grid! 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet, asperiores aspernatur cum est facere
+                illum maxime minus necessitatibus provident quasi soluta sunt suscipit tempora tempore temporibus ut
+                veniam? Provident.</p>
+            <button class="btn btn-info btn-lg">Lorem</button>
+        </div>
+        <div class="col-md-3 col-sm-6 design">
+            <h3>Test Grid! 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet, asperiores aspernatur cum est facere
+                illum maxime minus necessitatibus provident quasi soluta sunt suscipit tempora tempore temporibus ut
+                veniam? Provident.</p>
+            <button class="btn btn-info btn-lg">Lorem</button>
+        </div>
+        <div class="col-md-3 col-sm-6 design">
+            <h3>Test Grid! 4</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet, asperiores aspernatur cum est facere
+                illum maxime minus necessitatibus provident quasi soluta sunt suscipit tempora tempore temporibus ut
+                veniam? Provident.</p>
+            <button class="btn btn-info btn-lg">Lorem</button>
+        </div>
+
+    </div>
+
+
+    <!--now nested grid system-->
+
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-3 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-6 design">First Half!</div>
+                    <div class="col-lg-6 design">Second Half!</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 design">Testing Grid!</div>
+            <div class="col-md-3 col-sm-6 design">Testing Grid!</div>
+            <div class="col-md-3 col-sm-6 design">Testing Grid!</div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>
