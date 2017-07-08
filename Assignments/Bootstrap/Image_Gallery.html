@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="../../Bootstrap/css/bootstrap.css">
+    <!--using Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="../../FontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="Image_gallery.css">
+
+
+    <!--for fixing the bootstrap different size image thumbnail problem-->
+    <!--<style>-->
+    <!--.row.fix {-->
+    <!--display: flex;-->
+    <!--flex-wrap: wrap;-->
+    <!--}-->
+    <!--</style>-->
+
+</head>
+<body>
+
+<!--for NavBar-->
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="../../Bootstrap/js/bootstrap.js"></script>
+
+<!--NavBar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+
+            <!--for hamburger Icon when NavBar collapses-->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="Image_Gallery.html"><span class="glyphicon glyphicon-picture"
+                                                                    aria-hidden="true"></span> IMGS</a>
+        </div>
+
+        <!--now add elements
+        for Collapsing navbar  we use another div with class-->
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="jumbotron">
+        <h1><i class="fa fa-camera-retro" aria-hidden="true"></i> The Image Gallery</h1>
+        <p>Some Image Collected From Unsplash.com & Some Random Wallpaper</p>
+        <a href="https://unsplash.com" class="btn btn-success active" target="_blank">UnSplash.com</a>
+    </div>
+
+    <div class="row fix">
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="../../Src/margarita-batysheva-32472.jpg">
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="../../Src/hox-daymad-wallpaper-1.png">
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="../../Src/anime2.jpg">
+            </div>
+        </div>
+
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="../../Src/anime1.jpg">
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="../../Src/anime3.jpg">
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="../../Src/anime4.jpg">
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="../../Src/anime5.png">
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="../../Src/minion_party-wallpaper-1920x1080.jpg">
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+            <div class="thumbnail">
+                <img src="../../Src/grain-wallpaper-hd.jpg">
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+</body>
+</html>
