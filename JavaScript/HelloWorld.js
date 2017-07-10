@@ -8,6 +8,10 @@
 // var x = "Double Lol";
 // console.log(s + " " + x);
 
-for(var i=0; i<5; i++){
-    alert("Hello world")
-}
+alert("Fuck U");
+
+var name = prompt("Enter Your Age: ");
+parseInt(name);
+console.log(name);
+alert(name * 365);
+document.write(name * 365);
