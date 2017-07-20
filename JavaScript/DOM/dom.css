@@ -1,0 +1,9 @@
+#image1 {
+    float: left;
+    margin: 20px 60px 20px 20px;
+}
+
+#image2 {
+    float: inherit;
+    margin: 10px;
+}

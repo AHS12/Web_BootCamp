@@ -1,0 +1,43 @@
+<Html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../../Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="dom.css">
+    <script rel="script" type="text/javascript" src="domjs.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+
+        <p>Here are Some List <strong>SUPER</strong> items</p>
+
+        <ul>
+            <li>Item!</li>
+            <li>Item!</li>
+            <li>Item!</li>
+            <li>Item!</li>
+        </ul>
+
+        <button class="btn btn-success" onclick="test()">Click me to Change!</button>
+
+    </div>
+
+
+    <div id="image1">
+        <h1>Image 1</h1>
+        <img onmouseover="zoomin(this)" onmouseout="zoomout(this)" src="../../Src/img1.png">
+    </div>
+
+    <div id="image2">
+        <h1 onmouseover="changeText(this)" onmouseout="returnText(this)">Image 2</h1>
+        <img id="img2" onmouseover="changeImg(this)" onmouseout="returnImg(this)" src="../../Src/img2.jpg">
+    </div>
+
+    <button class="btn btn-success" onclick="pictureChange()">Click me to Change!</button>
+
+</div>
+<!-- -->
+</body>
+</html>
