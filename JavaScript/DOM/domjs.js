@@ -17,6 +17,48 @@ function test() {
 }
 
 
+//adding button listener via js
+
+// var dangerButton = document.querySelector("#dButton");
+
+// var dangerButton = document.getElementById("dButton");
+//
+// dangerButton.addEventListener("click",function () {
+//     alert("Danger Started!! Why did u even bother to press The button!!!");
+// },false);
+
+
+function ulchange() {
+
+    var ul = document.querySelector("ul");
+    ul.addEventListener("click", function () {
+
+        alert("Clicked Ul");
+
+    }, false);
+
+}
+
+
+//toggling the background
+
+var ischanged = false;
+
+function bgChange() {
+
+
+    if (ischanged === true) {
+        document.body.style.background = "white";
+    }
+
+    else {
+        document.body.style.background = "gray";
+    }
+
+    ischanged = !ischanged;
+
+}
+
 function pictureChange() {
 //        document.getElementById('img2').src = "../../Src/img1.png";
     document.querySelector("#img2").src = "../../Src/img1.png";

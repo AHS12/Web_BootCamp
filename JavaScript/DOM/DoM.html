@@ -21,9 +21,11 @@
         </ul>
 
         <button class="btn btn-success" onclick="test()">Click me to Change!</button>
+        <script>
+            ulchange();
+        </script>
 
     </div>
-
 
     <div id="image1">
         <h1>Image 1</h1>
@@ -36,6 +38,23 @@
     </div>
 
     <button class="btn btn-success" onclick="pictureChange()">Click me to Change!</button>
+    <button id="dButton" class="btn btn-danger">Click me to start Danger!</button>
+
+    <script>
+        //adding button listener via js
+
+        var dangerButton = document.querySelector("#dButton");
+        //var dangerButton = document.getElementById("dButton");
+
+        dangerButton.addEventListener("click", function () {
+            alert("Danger Started!! Why did u even bother to press The button!!!");
+        }, false);
+
+    </script>
+
+
+    <!--Toggling the background color -->
+    <button class="btn btn-info" onclick="bgChange()">Change Background!(Toggle)</button>
 
 </div>
 <!-- -->
