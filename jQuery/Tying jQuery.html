@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing jQuery</title>
+    <script type="text/javascript" src="lib/jquery-3.2.1.min.js"></script>
+
+    <style type="text/css">
+        .correct {
+            color: green;
+        }
+
+        .wrong {
+            color: red;
+        }
+
+        .done {
+            color: gray;
+            text-decoration: line-through;
+        }
+    </style>
+
+</head>
+<body>
+<h1>jQuery</h1>
+<h2>Gonna Try This</h2>
+<h3>lets see</h3>
+<div>
+    <ul>
+        <li id="id1">ITEM1</li>
+        <li id="id2">ITEM2 <a href="https://www.Monkey.com">Monkey Tag</a></li>
+        <li id="id3">ITEM3</li>
+        <li id="id4">ITEM4</li>
+    </ul>
+</div>
+
+<div>
+    <input type="text" placeholder="Enter Name">
+    <select name="nothing" id="lolSelect">
+        <option>Option1</option>
+        <option>Option2</option>
+        <option>Option3</option>
+    </select>
+    <button onclick="changeUl()">Change Ul items!</button>
+    <button onclick="sizeImg()">Size Pics!</button>
+    <button onclick="changeImg()">Change Pics!</button>
+    <button onclick="changInput()">Change Input Type!</button>
+    <button id="addClass">Manipulate Class(add)!!</button>
+    <button onclick="toggleClass()">Manipulate Class(toggle)!!</button>
+    <button onclick="removeClass()">Manipulate Class!!(remove)</button>
+</div>
+<div>
+    <img src="../Src/anime5.png" alt="Saber">
+</div>
+<script type="text/javascript" src="test_jQuery.js"></script>
+<!--<script>-->
+<!--$("#addClass").click(addClass());-->
+<!--</script>-->
+</body>
+</html>
